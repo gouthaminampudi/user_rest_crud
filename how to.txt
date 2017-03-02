@@ -1,0 +1,6 @@
+comment the following and remove references in app.module.ts
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
+
+add the following to package.json
+  "angular-in-memory-web-api": "~0.2.4",
